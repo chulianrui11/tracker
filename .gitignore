@@ -1,1 +1,53 @@
+#### OS: darwin
+.DS_Store
+app/.DS_Store
+
+#### IDE: pycharm
+__pycache__/
 .idea
+
+#### QA: temp dir
+cover
+.coverage
+.scannerwork/
+sonar.sh
+sonar-project.properties
+
+#### python cache files
+*.pyc
+
+#### project temp dir or files
+data/
+logs/
+offline/data/
+app/output/
+offline/*.csv
+*.log
+*.out
+*.txt
+*.db
+*.ini
+*.csv
+
+#### project frontend temp files
+frontend/node_modules/
+frontend/dist/
+frontend/test/unit/coverage/
+backend/static/favicon.ico
+backend/static/js/*.js
+backend/static/css/*.css
+backend/static/js/*.map
+backend/static/css/*.map
+backend/templates/*.html
+
+#### project config files
+backend/settings.ini
+settings.ini
+settings.ini.online
+settings.ini.offline
+
+#### unknown files
+drivers/
+offline/budget/slides/*.md
+
+backend/offline/convert.py
